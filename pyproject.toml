@@ -9,17 +9,15 @@ description = "glade's useless python imports (saving myself some time)"
 authors = [
   { name = "GladeOAC", email = "toufg.glade@proton.me" }
 ]
-readme = "DONTREADME.txt"
+readme = "README.txt"
 license = { file = "LICENSE" }
 requires-python = ">=3.7"
 keywords = ["math", "music", "cryptography", "web", "utils"]
-
-[project.urls]
-homepage = "https://github.com/NotToufG/gupi"
-
-[project.classifiers]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent"
 ]
+
+[project.urls]
+homepage = "https://github.com/NotToufG/gupi"
