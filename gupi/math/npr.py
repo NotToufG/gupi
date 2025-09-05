@@ -1,0 +1,1 @@
+from math import perm as npr
