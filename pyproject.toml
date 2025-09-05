@@ -7,12 +7,19 @@ name = "gupi"
 version = "0.0.1"
 description = "glade's useless python imports (saving myself some time)"
 authors = [
-  { name="GladeOAC", email="toufg.glade@proton.me" }
+  { name = "GladeOAC", email = "toufg.glade@proton.me" }
 ]
-readme = "DON'T README.txt"
-license = { file="LICENSE" }
+readme = "DONTREADME.txt"
+license = { file = "LICENSE" }
 requires-python = ">=3.7"
 keywords = ["math", "music", "cryptography", "web", "utils"]
 
 [project.urls]
-Homepage = "https://github.com/NotToufG/gupi"
+homepage = "https://github.com/NotToufG/gupi"
+
+[project.classifiers]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
