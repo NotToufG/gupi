@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gupi"
+version = "0.0.1"
+description = "glade's useless python imports (saving myself some time)"
+authors = [
+  { name="GladeOAC", email="toufg.glade@proton.me" }
+]
+readme = "DON'T README.txt"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+keywords = ["math", "music", "cryptography", "web", "utils"]
+
+[project.urls]
+Homepage = "https://github.com/NotToufG/gupi"
